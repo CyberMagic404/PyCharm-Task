@@ -3,6 +3,8 @@ import numpy as np
 img_name = input('Введите название исходного изображения (с расширением): ')
 res_name = input('Введите название конечного изображения (с расширением): ')
 img = Image.open(img_name)
+width, height = img.size
+format = img.format
 img_array = np.array(img)
 size = int(input('Введите размер мозаики: '))
 step = int(input('Введите количество градаций серого цвета: '))

@@ -25,3 +25,8 @@ old_filter.py
 
 filter.py
 ![res2](https://user-images.githubusercontent.com/81950751/142760668-158fb853-0e07-47d4-b35b-778dcb468073.jpg)
+
+
+Результат работы отладчика:
+
+![отладчик](https://user-images.githubusercontent.com/81950751/142761151-02b94d00-b42b-4a80-a359-8246192e28d9.png)
