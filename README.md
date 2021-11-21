@@ -13,3 +13,15 @@ old_filter.py
 filter_with_filename.py
 
 ![filter_with_filename](https://user-images.githubusercontent.com/81950751/142760197-24ba0d9d-1da7-474a-aeb9-c1a786927e9e.png)
+
+
+Сравните результаты работы старой программы и новой на одинаковых данных:
+
+Исходная картинка:
+![img2](https://user-images.githubusercontent.com/81950751/142760655-a7fc36da-14c9-4e5f-bdac-f749ffcab80f.jpg)
+
+old_filter.py
+![res](https://user-images.githubusercontent.com/81950751/142760659-ee591486-b117-4f55-9ca5-6c9bbdf0ebed.jpg)
+
+filter.py
+![res2](https://user-images.githubusercontent.com/81950751/142760668-158fb853-0e07-47d4-b35b-778dcb468073.jpg)
