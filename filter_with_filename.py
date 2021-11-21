@@ -1,11 +1,11 @@
 from PIL import Image
 import numpy as np
-img_name = input('Введите название исходного изображения (с расширением): ')
-res_name = input('Введите название конечного изображения (с расширением): ')
+img_name = 'img2.jpg'
+res_name = 'res2.jpg'
 img = Image.open(img_name)
 img_array = np.array(img)
-size = int(input('Введите размер мозаики: '))
-step = int(input('Введите количество градаций серого цвета: '))
+size = 10
+step = 50
 grad_step = 255 // step
 
 def find_av_brightness(part_of_img, size, grad_step):
